@@ -22,7 +22,7 @@ namespace SolidPrinciples.SingleResponsabilityPrinciple
             return SubTotal + CalculateTax();
         }
 
-        // This class represents methods that are not your responsibility
+        // This class represents methods that are not it's responsibility
         // A new class called InvoicePrinter will be created to solve the 
         // problem of SRF - Single Responsability Principle
 
